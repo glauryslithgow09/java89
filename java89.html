@@ -1,0 +1,49 @@
+<!--<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Documento</title>
+    <meta charset="UTF-8">
+</head>
+
+<body style="background-color: firebrick;">
+
+    <script>
+        var cadena = 'Julian tiene 15 años Ana tiene 24 años Joel tiene 30 años';
+        var vec = cadena.match(/\d+/g);
+        for (var y = 0; y < vec.length; y++) {
+            document.write(vec[y] + '<br>');
+        }
+    </script>
+
+</body>
+
+</html>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>documento</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <script>
+        const valor1 = parseInt(prompt("Ingrese un numero"));
+        const valor2 = parseInt(prompt("Ingrese otro numero"));
+        if (valor1 >= valor2) {
+            let resu;
+            resu = valor1 + valor2;
+            document.write('La suma es:' + resu + '<br>');
+            resu = valor1 - valor2;
+            document.write('La resta es:' + resu);
+        } else {
+            const multi = valor1 * valor2;
+            document.write('El producto es:' + multi);
+        }
+    </script>
+
+</body>
+
+</html>
